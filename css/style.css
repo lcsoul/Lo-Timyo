@@ -1,0 +1,515 @@
+body{
+	font-size: 14px;
+	font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#header-bg{
+	background: url(../img/banner.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	padding-bottom: 6%;
+	padding-top: 10px;
+}
+#header-bg .navbar-default{
+	background: none;
+	border:0;
+}
+
+#header-bg .navbar-default .navbar-nav>li>a{
+	color: #000;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+
+
+.header-demo{
+	font-size: 26px;
+	font-weight: 200;
+	text-align: center;
+}
+
+#header-info .container .row .col-md-7 h2{
+	font-weight: 100;
+	font-size: 56px;
+	text-align: center;
+}
+#header-info .video{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 200;
+}
+#header-info .col-md-7,#header-info .col-md-5,#header-info img{
+	text-align: center;
+}
+
+
+#header-bg .navbar-collapse .navbar-nav li a{
+	height: 72px;
+	line-height: 72px;
+}
+#header-bg button{
+	margin-top: 30px;
+}
+
+.header-lb{
+	text-align: right;
+	position: relative;
+	width: 100%;
+}
+
+.header-lb div{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	transition: 1s;
+}
+
+.header-lb div img{
+	margin-top: 0px;
+}
+
+
+.lb-q{
+	text-align: right;
+    padding: 0;
+    margin: 0;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.lb-q li{
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+    margin-left: 10px;
+}
+@media screen and (max-width: 990px){
+	.header-lb{
+		text-align: center;
+	}
+	.lb-q{
+    margin-right: 0px;
+		text-align: center;
+	}
+	#app .app-f{
+		display: none;
+	}
+}
+.lb-li0{
+	width: 18px;
+	height: 18px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+.lb-li1{
+	width: 20px;
+	height: 20px;
+	background:#fff;
+}
+
+
+
+/*第二部分*/
+#app{
+	padding: 56px 0px;
+	text-align: center;
+}
+
+#app h3{
+	font-weight: 200;
+    font-size: 34px;
+}
+
+#app .p1{
+	font-weight: 200;
+    font-size: 14px;
+}
+#app .p2{
+	font-size: 20px;
+    font-weight: 300;
+}
+#app a{
+	display: block;
+}
+#app a img{
+	width: 203px;
+	height: 60px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+#app .app-f{
+	width: 100%;
+}
+#app .col-md-6{
+	/*width: 380px;*/
+	/*margin: 0 auto;
+	text-align: center;*/
+}
+#app .col-md-6 form-group{
+	margin: 0 auto;
+}
+#app .col-md-6 input{
+	padding-left: 45px;
+	width: 60%;
+	float: left;
+}
+
+#app .col-md-6 .btn2{
+	width: 35%;
+	float: right;
+	color: #fff;
+}
+    
+#app .btn0{
+	position: absolute;
+	top: 1px;
+	left: 16px;
+}
+#app .btn0 button{
+	position: relative;
+	border:0;
+}
+#app .btn0 .caret{
+	position: relative;
+	top: -3px;
+	left: 12px;
+}
+#app .usa{
+	position: absolute;
+    top: 3px;
+    left: 4px;
+    bottom: 0;
+    margin: auto;
+	width: 20px;
+    height: 15px;
+	background-image: url(../img/flags-retina.png);
+    background-position: -5241px 0;
+}
+#app .dropdown-menu li div{
+	position: absolute;
+	left: 8px;
+	width: 20px;
+    height: 15px;
+	margin-top: 5px;
+	background-image: url(../img/flags-retina.png);
+}
+#app .dropdown-menu li .usa0{
+    background-position: -5241px 0;
+}
+#app .dropdown-menu li .usa1{
+    background-position: -5197px 0;
+}
+#app .dropdown-menu li .usa2{
+    background-position: -5175px 0;
+}
+#app .dropdown-menu li .usa3{
+    background-position: -5153px 0;
+}
+#app .dropdown-menu li .usa4{
+    background-position: -5131px 0;
+}
+#app .dropdown-menu li .usa5{
+    background-position: -4736px 0;
+}
+
+#app .dropdown-menu li{
+	padding-left: 20px;
+}
+#app .dropdown-menu span{
+	color: #888;
+	padding-left: 10px;
+}
+
+
+
+
+
+#app .btn1{
+	width: 40px;
+}
+
+
+#app .app-f{
+	height: 80px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+#app .femail{
+	color: rgba(64, 64, 64, 0.7);
+    font-weight: 300;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    padding: .5em 8em;
+    margin: 1em;
+    border: solid 1px #404040;
+}
+
+#app .app-f1 input{
+	padding: 9px 144px;
+	font-size: 18px;
+    padding: .5em 8em;
+    margin: 1em;
+    border: solid 1px #404040;
+    color: #ccc;
+}
+
+#app .app-f1 p{
+	font-size: 20px;
+    font-weight: 300;
+}
+#app .app-f1 div{
+	text-align: center;
+}
+#app .app-f1 div span{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	/*background-color: #000;*/
+}
+#app .app-f1 div span:nth-child(1){
+	width: 50px;
+	height: 50px;
+	background: url(../img/android.jpg) no-repeat 100%;
+}
+#app .app-f1 div span:nth-child(2){
+	width: 50px;
+	height: 50px;
+	background: url(../img/windows.jpg) no-repeat 100%;
+}
+
+
+/*第三部分*/
+#wait{
+	background-color: #eee;
+	padding: 168px 0 112px;
+}
+#wait .col-md-5,#wait.col-md-7{
+	text-align: center;
+}
+#wait .container h3{
+	text-align: center;
+	font-size: 56px;
+    font-weight: 100;
+}
+
+#wait .w-p p{
+	font-weight:100;
+	font-size: 21px;
+	text-align: left;
+	margin: 24px auto 0 auto;
+}
+
+/*第四部分*/
+#focus .f-top,#focus .col-md-5{
+	text-align: center;
+}
+
+#focus .f-top h3{
+    font-weight: 200;
+    margin: 1em 0 0 0;
+    font-size: 56px;
+}
+#focus .f-top p,#focus .f-top p a{
+	color: deepskyblue;
+	font-weight: 300;
+    font-size: 22px;
+    text-decoration: none;
+}
+#focus .f-txt{
+	margin-top: 100px;
+}
+#focus .f-txt h5{
+	margin: 0;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+#focus .f-txt p{
+	font-weight: 200;
+	font-size: 18px;
+}
+#focus .f-txt1 h5{
+    color: #007aff;
+    background: url(../img/blue-box.png) no-repeat;
+}
+#focus .f-txt2 h5{
+    color: #ffcc01;
+    background: url(../img/yellow-box.png) no-repeat;
+}
+#focus .f-txt3 h5{
+    color: #4cd964;
+    background: url(../img/green-box.png) no-repeat;
+}
+#focus .f-txt4 h5{
+    color: #ff3b30;
+    background: url(../img/red-box.png) no-repeat;
+}
+
+#focus .f-txt div{
+	margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+#focus .f-bo img{
+	max-width: 100%;
+	margin-right: 28px;
+}
+
+
+/*第五部分*/
+
+#give{
+	background-color: #eee;
+	padding-bottom: 28px;
+    padding-top: 112px;
+}
+#give .col-md-6{
+	text-align: center;
+}
+#give .col-md-6:nth-child(2){
+	padding-left: 70px;
+}
+#give h3{
+	font-size: 52px;
+    font-weight: 200;
+    margin: 1em 0 0 0;
+}
+#give p{
+	font-weight: 200;
+	font-size: 20px;
+	margin: 28px 0 0;
+}
+
+
+
+
+/*第六部分*/
+#timyo{
+	margin: 0 0 8em 0;
+}
+#timyo h3{
+	text-align: center;
+	font-size: 52px;
+    font-weight: 200;
+}
+#timyo .col-md-4{
+	text-align: center;
+}
+#timyo .timyo-img{
+	text-align: center;
+	margin: 20px auto;
+}
+
+/*第七部分*/
+#we{
+	background-color: #eee;
+}
+#we .col-md-4{
+	text-align: center;
+}
+
+#we h3{
+	text-align: center;
+    font-weight: 200;
+    margin: 3em 0 2em 0;
+    font-size: 40px;
+}
+#we h4{
+	font-size: 40px;
+	margin: .5em 0 1.5em 0;
+}
+#we .col-md-4:nth-child(1) h4{
+	color: #ffcc00;
+}
+#we .col-md-4:nth-child(2) h4{
+	color: #007aff;
+}
+#we .col-md-4:nth-child(3) h4{
+	color: #4cd964;
+}
+#we p{
+	font-weight: 200;
+    font-size: 21px;
+    text-align: left;
+}
+
+
+/*第八部分*/
+
+#upgrade{
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+#upgrade .col-md-7 div img{
+	width: 203px;
+    height: 60px;
+}
+#upgrade .col-md-5{
+	margin-top: 7em;
+}
+#upgrade .col-md-7{
+	margin-top: 5em;
+    padding-bottom: 6em;
+    padding-left: 9em !important;
+}
+#upgrade h3{
+	font-weight: 200;
+    margin: 3em 0 0 0;
+    font-size: 56px;
+}
+#upgrade div{
+	margin-top: 28px;
+    margin-bottom: 28px;
+}
+#upgrade h4{
+	font-size: 20px;
+    font-weight: 300;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    text-align: left;
+    background: url(../img/red-box.png) no-repeat;
+}
+#upgrade p{
+	text-align: left;
+	font-size: 18px;
+    margin: 0;
+    font-weight: 300;
+}
+
+
+/*第九部分*/
+#footer{
+	text-align: center;
+	padding: 0 0 1em 0;
+}
+#footer p:nth-child(1){
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+#footer div a{
+	color: #000;
+	font-weight: 300;
+}
+
+#footer p:last-child{
+	font-size: 12px;
+}
+
+
+.appst img{
+	width: 203px;
+	height: 60px;
+}
+.appst{
+	position: fixed;
+	right: 20px;
+	bottom: 26px;
+}
+
+
+
